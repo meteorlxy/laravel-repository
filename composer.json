@@ -1,0 +1,20 @@
+{
+    "name": "meteorlxy/laravel-repository",
+    "description": "A very simple repository for Laravel",
+    "keywords": ["repository", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Meteor.lxy",
+            "email": "meteor.lxy@foxmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "~5.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "Meteorlxy\\Laravel\\Repository\\": "src/"
+        }
+    }
+}
